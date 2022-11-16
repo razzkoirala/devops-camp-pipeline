@@ -24,6 +24,7 @@ pipeline {
                 }
             }
         }
+        //commented for test
         stage('Application docker build') {
             steps {
                 echo "Building application image"
